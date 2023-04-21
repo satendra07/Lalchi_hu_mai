@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Pompiere&family=Roboto:wght@700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* utility class */
+
+.flex {
+    display: flex;
+}
+
+.remove-dot {
+    list-style-type: none;
+}
+
+
+
+
+/* nav */
+
+.nav-container {
+    background-color: #CBFFBE;
+    padding: 20px 30px;
+    Width: 100%;
+    justify-content: space-between;
+}
+
+.links {
+    justify-content: space-between;
+    gap: 60px;
+    Width: 100%;
+    padding-right: 60px;
+}
+
+.Hover-link {
+    text-decoration: none;
+    transition: 0.3s ease-out;
+}
+
+.Hover-link:hover {
+    color: #2bd8d8;
+}
+
+/* deader */
+.header-main-container {
+    /* border: 2px solid black; */
+    /* width: 1611px;
+height: 980px; */
+    background-color: gray;
+}
+
+.header-title {
+
+    text-align: center;
+    margin-top: 33px;
+    margin-bottom: 13px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #FFFFFF;
+    /* font-size: 40px; */
+    /* font-weight: 550; */
+}
+
+.header-title h2,
+h4 {
+    padding: 10px;
+}
+
+.header-left-container {
+    width: 80vw;
+    height: 90vh;
+    background-color: gray;
+}
+
+.header-right-container {
+    width: 21vw;
+    height: 90vh;
+    background-color: #4A8150;
+}
+
+/* carousel */
+
+.carousel {
+    margin: auto;
+
+    justify-content: center;
+    text-align: center;
+    width: 900px;
+    height: 450px;
+    /* border: 2px solid black; */
+    box-shadow: 0 5px 20px rgb(6, 6, 13);
+}
+
+
+/* container-right */
+.triangle {
+    width: 311px;
+    height: 311px;
+    /* border: 2px solid black; */
+    background-image: linear-gradient(to bottom right,
+    #1C340E 50%, 
+    #4A8150 50%);
+
+}
+
+.description {
+
+
+    padding-left: 15px;
+    font-family: 'Pompiere';
+    font-size: 30px;
+    line-height: 45px;
+    /* border: 2px solid black; */
+    color: #FFFFFF;
+}
+
+/* buy-now_btn */
+.buy-now {
+    margin: auto;
+    margin-top: 22px;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.btn {
+    
+    padding: 7px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 27px;
+    color: #FFFFFF;
+    box-shadow: 0px 5px 20px#0f1e11;
+    border-radius: 10px;
+    background-image: linear-gradient(
+    #ffFFFE,
+    #CBFFBE );
+
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+}
