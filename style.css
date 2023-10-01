@@ -23,9 +23,22 @@
 
 .nav-container {
     background-color: #CBFFBE;
-    padding: 20px 30px;
+    /* padding: 20px 30px; */
     Width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    position:fixed;
+    top: 0px;
+    z-index: 1;
+    
+}
+.company-logo img{
+  
+    height: 50px;
+}
+.nav-link{
+    
+    
 }
 
 .links {
@@ -33,6 +46,7 @@
     gap: 60px;
     Width: 100%;
     padding-right: 60px;
+    align-items: center;
 }
 
 .Hover-link {
@@ -46,10 +60,9 @@
 
 /* deader */
 .header-main-container {
-    /* border: 2px solid black; */
-    /* width: 1611px;
-height: 980px; */
+
     background-color: gray;
+    margin-top: 50px;
 }
 
 .header-title {
@@ -59,7 +72,7 @@ height: 980px; */
     margin-bottom: 13px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    color: #FFFFFF;
+    color: #222222;
     /* font-size: 40px; */
     /* font-weight: 550; */
 }
@@ -71,33 +84,42 @@ h4 {
 
 .header-left-container {
     width: 80vw;
-    height: 90vh;
-    background-color: gray;
+    
+    background-color: rgb(251, 251, 250);
 }
 
 .header-right-container {
     width: 21vw;
-    height: 90vh;
+    height: 100vh;
     background-color: #4A8150;
+    position:fixed;
+    right: 0px;
+    z-index: 1;
+  
 }
 
 /* carousel */
 
 .carousel {
     margin: auto;
-
     justify-content: center;
     text-align: center;
     width: 900px;
     height: 450px;
+    border-radius: 10px;
     /* border: 2px solid black; */
     box-shadow: 0 5px 20px rgb(6, 6, 13);
+}
+.crousel-img{
+    width: 900px;
+    height: 450px;
+    border-radius: 10px;
 }
 
 
 /* container-right */
 .triangle {
-    width: 311px;
+    width: 100%;
     height: 311px;
     /* border: 2px solid black; */
     background-image: linear-gradient(to bottom right,
@@ -143,4 +165,53 @@ h4 {
 .btn a{
     text-decoration: none;
     color: black;
+}
+ /*................................................................
+                    CARDS
+..................................................................*/ 
+.card-container{
+width: 75%;
+justify-content: center;
+margin-block: 80px;
+gap: 50px;
+/* background-color:rgba(39, 36, 36, 0.429); */
+
+}
+.card {
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 1px 5px 10px rgb(6, 6, 13);
+
+    /* background-image:url(https://blogproxy.andaazfashion.com/wp-content/uploads/2022/04/2.jpg); */
+    background-size: cover;
+background-color:rgba(39, 36, 36, 0.429);
+}
+.card:hover{
+  transform: scale(1.2);
+  /* translate: ease-in-out 1s; */
+  transition: 0.5s ease-in-out;
+}
+.card .card-img-overlay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    text-decoration: none;
+    color: #ffFFFE;
+}
+.card img {
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+}
+
+
+
+
+
+footer{
+    height: 10vh;
+    /* margin-block: 20px; */
+    background-color: red;position: none;
 }
