@@ -1,0 +1,421 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Noto+Nastaliq+Urdu&family=Playfair+Display&family=Poppins:wght@100;200;400&family=Roboto:wght@100&family=Sevillana&display=swap');
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* utility */
+body {
+    font-family: 'Poppins';
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-collum {
+    flex-direction: column;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.crad-border {
+    border: 0.5px solid black;
+}
+
+.gap {
+    gap: 20px;
+}
+
+.gap-1 {
+    gap: 30px;
+}
+
+
+/* nav */
+
+.nav-color {
+    background-color: gray;
+}
+
+.main-nav-container {
+    justify-content: space-between;
+    padding: 10px 30px;
+    width: 100%;
+}
+
+.nav-item-size {
+    height: 20px;
+}
+
+.nav-title {
+    font-size: 20px;
+    color: white;
+}
+
+.search-input {
+    padding: 7px;
+    width: auto;
+    height: auto;
+    border: 0.5px solid black;
+    border-radius: 52px;
+    background-color: white;
+    color: white;
+}
+
+.surch-area {
+    text-decoration: none;
+    width: auto;
+
+
+}
+
+/* body-section */
+/* left-side */
+
+.main-body-container {}
+
+.left-container {
+    /* border: 1px solid black; */
+    width: 13%;
+    /* height: 90vh; */
+    background-color: #EFEAEA;
+    font-family: 'Poppins';
+    box-shadow: 0px 5px 10px rgb(22, 23, 24);
+}
+
+.links {
+    flex-direction: column;
+    gap: 31px;
+    padding: 18px 0px;
+    padding-left: 20px;
+    list-style-type: none;
+
+
+}
+
+.hover-link {
+    text-decoration: none;
+    color: black;
+}
+
+.hover-link:hover {
+    color: blueviolet
+}
+
+.hover-link i {
+    font-size: 17px;
+    padding-right: 10px;
+}
+
+.contact {
+    font-family: 'Poppins';
+    flex-direction: column;
+    width: 100%;
+
+    background: rgba(142, 210, 136, 0.58);
+    border-radius: 15px;
+    padding: 5px 0px;
+
+
+}
+
+.plus {
+    margin: auto;
+
+    width: 45px;
+    height: 45px;
+    background-color: #0E0D0D;
+    border-radius: 50%;
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.plus p {
+    color: white;
+    font-size: 40px;
+    /* position: absolute;
+    top: -22%;
+    left: 20%; */
+}
+
+.contact-inside {
+
+    margin: auto;
+    width: 91%;
+    background: #feffffa3;
+    border-radius: 31px;
+    margin: 5px auto;
+
+}
+
+.message {
+    font-size: 12px;
+    text-align: center;
+    padding: 5px;
+    line-height: 20px;
+}
+
+.customer-servics {
+    margin: auto;
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+
+.customer-servics a {
+    text-decoration: none;
+    padding: 5px 20px;
+    color: #0E0D0D;
+    font-size: 12px;
+    border-radius: 40px;
+    border: 1px solid black;
+    background: rgba(65, 159, 211, 0.68);
+}
+
+/* right-section */
+.right-container {
+    gap: 10px;
+    margin-left: 23px;
+}
+
+.banner {
+    width: 100%;
+    height: 300px;
+    background: rgba(203, 255, 190, 0.61);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.coupan {
+    margin: 20px;
+    width: 307px;
+    height: 240px;
+    background: rgba(162, 13, 212, 0.705);
+    filter: drop-shadow(10px 4px 4px rgba(0, 0, 0, 0.7));
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* coupan start */
+
+
+
+
+
+
+
+
+
+/* coupan end */
+
+.cover-img {
+    margin: auto;
+    width: 182px;
+    height: 235px;
+    /* border: 0.5px solid black; */
+    /* overflow: auto; */
+
+
+}
+
+.cover-img .img {
+
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgb(254, 254, 254);
+}
+
+.detailes-section {
+    margin: auto;
+    width: 65%;
+    height: 95%;
+    /* border: 0.5px solid black; */
+    padding: 10px;
+}
+
+/* detailes-section    */
+.detaile-main div {
+    margin: 5px;
+}
+
+.ul-star {
+    gap: 10px;
+    font-size: 23px;
+
+}
+
+.li_star {
+    color: #9EAB0D;
+    ;
+    /* background-color: gold; */
+}
+
+.review {
+    font-size: 15px;
+    color: #0E0D0D;
+}
+
+.detaile p {
+    letter-spacing: 1.5px;
+    word-spacing: 7px;
+    font-size: 12px;
+    color: #878080;
+    ;
+}
+
+.prise {
+
+    word-spacing: 7px;
+    letter-spacing: 1.5px;
+}
+
+.size {
+    gap: 15px;
+    box-sizing: border-box;
+    padding-right: 50px;
+}
+
+
+.btn-size {
+    width: 24px;
+    height: 23px;
+    font-size: 9.5px;
+    color: white;
+    background-color: #203907;
+    border-radius: 2px;
+
+}
+
+.quantity {
+    margin-left: 20px;
+    border: 0.5px solid #203907;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
+.quantity button {
+    width: 25px;
+    height: 23px;
+    color: white;
+    background-color: #203907;
+
+}
+
+.quantity input {
+    width: 50px;
+    height: 23px;
+}
+
+/* detaile buy-section */
+.buy-detaile {}
+
+.buy-detaile ul {
+    margin-top: 20px;
+    justify-content: space-around;
+    width: 100%;
+
+}
+
+.fa-heart {
+    font-weight: 700;
+}
+
+.li-buy1 {
+    padding: 7px 15px;
+    font-size: 12px;
+    font-weight: 700;
+    color: black;
+    background-color: #FEFFFC;
+    border: 1px solid #000000;
+    border-radius: 7px;
+}
+
+.li-buy2 {
+    padding: 7px 15px;
+    background-color: rgb(7, 7, 7);
+    color: #EFEAEA;
+    font-size: 12px;
+    font-weight: 700;
+    border: 1px solid #000000;
+    border-radius: 7px;
+}
+
+/* category section  */
+
+.category{
+    width: 100%;
+    /* height: 40px; */
+    padding-inline: 20px;
+    margin-block: 8px;
+    /* border:2px solid red; */
+}
+.cat{
+    font-size: 25px;
+    font-weight: 700;
+    color: #878080;
+    margin-bottom: 3px;
+}
+.category .hr hr{
+    color: green;
+    width: 95%;
+    height: 2.5px;
+    background-color:#878080;
+    
+    
+
+}
+
+.main-categories {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100%;
+    padding-inline: 20px;
+
+}
+
+
+
+.men-card,
+.women-card,
+.kid-card {
+
+    margin: auto;
+    width: 140px;
+    height: 90px;
+    border: 0.5px solid rgb(193, 28, 28);
+    text-align: center;
+    padding-block: 31px;
+    border-radius: 13px;
+    margin-block: 11px;
+    font-weight: 400;
+    background-color: hsla(0, 3%, 52%, 0.2);
+
+}
+
+.mem-title,
+.womem-title,
+.kid-title {
+    margin: auto;
+    width: 140px;
+    height: 90px;
+    /* border: 0.5px solid rgb(193, 28, 28); */
+    text-align: center;
+    padding-block: 31px;
+    border-radius: 13px;
+    text-align: left;
+    font-weight: 700;
+
+    /* background-color: hsla(0, 3%, 52%, 0.2); */
+}
