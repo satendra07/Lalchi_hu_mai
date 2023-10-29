@@ -28,7 +28,9 @@
                 </div>
                 <div class="nav_section flex">
 
-                    <li><a class="nav_a" id="location" href="#"><i class="fa-solid fa-location-dot fa-beat fa-lg"></i></a></li>
+                    <div id="location" onclick="getLocation()"><i  class="fa-solid fa-location-dot fa-beat fa-lg"></i></div>
+                    <!-- <li class="nav_a" id="location" ></li><i class="fa-solid fa-location-dot fa-beat fa-lg"></i></li> -->
+                    <!-- <li><a class="nav_a" id="location" href="#"><i class="fa-solid fa-location-dot fa-beat fa-lg"></i></a></li> -->
                     <li><a class="nav_a" href=""><i class="fa-solid fa-user fa-lg"></i></a></li>
                     <li><a class="nav_a" href=""> <i class="fa-sharp fa-solid fa-cart-shopping fa-lg"></i></a></li>
                     <button class="day-night"  onclick="darkLight()"><i id="day-night" class="fa-moon fa-solid"></i></button>
@@ -46,7 +48,7 @@
             <div class="container-fluid">
                 <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner ">
-                        <div class="carousel-item active " data-bs-interval="">
+                        <div class="carousel-item active " data-bs-interval="1500">
                             <div class="carousel_1 flex">
                                 <div class="carousel_left">
                                     <div>
@@ -62,7 +64,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item " data-bs-interval="">
+                        <div class="carousel-item " data-bs-interval="1000">
                             <div class="carousel_1 flex">
                                 <div class="carousel_left">
                                     <div>
@@ -78,7 +80,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item " data-bs-interval="">
+                        <div class="carousel-item " data-bs-interval="500">
                             <div class="carousel_1 flex">
                                 <div class="carousel_left">
                                     <div>
